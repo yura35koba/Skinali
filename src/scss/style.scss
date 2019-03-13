@@ -1,4 +1,5 @@
 @import 'base/_base';
-h1{
-  color: red;
-}
+@import "base/_grid";
+@import "base/_colors";
+@import "setions/_header";
+@import "setions/_navbar";

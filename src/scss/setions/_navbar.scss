@@ -1,0 +1,84 @@
+.navbar{
+  &-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80px;
+  }
+  &-phone{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .menu{
+  &-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid rgba(#510bba, 0.1);
+    border-right: 1px solid rgba(#510bba, 0.1);
+    height: 80px;
+    width: 70px;
+    &-line{
+      display: block;
+      width: 20px;
+      height: 3px;
+      background-color: #507fe1;
+      margin: 3px;
+    }
+  }
+  }
+}
+
+
+.logo_text{
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Proxima Nova";
+  color: #262626;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "Ф, абрика" */
+  letter-spacing: 0.54px;
+}
+.logo_desc{
+  display: block;
+  color: $text-color_black-light;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+}
+.nav_phone{
+  color: #1c1c1c;
+  font-family: "Proxima Nova - Semibold";
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.navbar-work-time,.navbar-email{
+  color: $text-color_black-light;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  text-align: right;
+}
+.button-o{
+  display: block;
+  border: none;
+  background-color: transparent;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 22px;
+  padding-right: 22px;
+  color: #507fe1;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #507fe1;
+ }
