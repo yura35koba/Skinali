@@ -1,8 +1,12 @@
 .navbar{
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 99;
   &-wrap{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     min-height: 80px;
   }
   &-phone{
@@ -11,6 +15,7 @@
 
   }
   .menu{
+
   &-button{
     display: flex;
     flex-direction: column;
